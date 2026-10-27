@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#100d27" />
+  <meta name="description" content="A little universe made with love for Meri Roshmalai, from Meh tumhara Chamcham." />
+  <title>Our Little Universe ❤️ | Meri Roshmalai</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="sky" aria-hidden="true" id="sky"></div>
+  <div class="petals" aria-hidden="true" id="petals"></div>
+  <button class="music-toggle" id="musicToggle" aria-label="Toggle romantic music" title="Music on/off">♫ <span>Music off</span></button>
+  <audio id="music" loop preload="none">
+    <!-- Replace this source with a royalty-free romantic instrumental MP3 you have permission to use. -->
+    <source src="https://youtu.be/rTuxUAuJRyY?si=nG7GF95kttcKHBzG" type="audio/mpeg">
+  </audio>
+
+  <main>
+    <section class="screen active" id="opening">
+      <div class="eyebrow"><span class="tiny-star">✦</span> A LITTLE UNIVERSE, JUST FOR YOU <span class="tiny-star">✦</span></div>
+      <div class="moon-heart" aria-hidden="true"><span>♥</span></div>
+      <p class="script">A little universe for Meri Roshmalai</p>
+      <h1>Meri Roshmalai,<br><em>Meri Pasandida Aurat</em> <span class="red">❤️</span></h1>
+      <p class="subhead">Mene tumhare liye kuch banaya haan<br>Mera haath thamo meh tumhe leke chalu</p>
+      <button class="primary" id="openBtn">Open something special <span>✨</span></button>
+      <div class="scroll-hint">A story written in stardust <span>↓</span></div>
+    </section>
+
+    <section class="screen" id="story">
+      <div class="section-kicker">CHAPTER ONE · HOW IT ALL BEGAN</div>
+      <h2>Humari kahani ki shuruwat<br><em>Jo meri life ka favourite part hn.</em></h2>
+      <p class="section-intro">or tumhare saath ki hur cheez ek pyari yaad ban gyi hn babuu</p>
+      <div class="timeline">
+        <article class="timeline-item"><div class="timeline-dot">✦</div><div class="memory-card"><span class="date"></span><h3>Jab hum mile babuu</h3><p>Jab hum mile the tab strangers the ek dusre ko jante hi nhi the lekin aaj dekho ek dusre ki life ka part bn chuke hn</span><h3>.</p></div></article>
+        <article class="timeline-item"><div class="timeline-dot">♡</div><div class="memory-card"><span class="date"></span><h3>Meri pasandida yaad </h3><p>yaad to bohot saari hn lekin best to kuchu puchu wali hn jaha se hamari baate start hui thi</p></div></article>
+       
+        <article class="timeline-item"><div class="timeline-dot">∞</div><div class="memory-card"><span class="date"></span><h3>Tum bohot khaas ho</h3><p>Tum mere liye khaas ho kyunki tumhare hone se meri chhoti si duniya bhi khoobsurat lagne lagti hai. Tumhari smile mera sukoon hai, tumhari khushi meri khushi hai, aur tumse baat karke dil ko jo sukoon milta hai na, woh kahin aur nahi milta. 🥹❤️ Tum sirf meri bandi nahi, meri favourite feeling, meri khushi aur meri sabse pyaari si duniya ho. 🫶🏻💋 Tum ho toh sab kuch thoda aur special lagta hai, meri Roshmalai. 🧿❤️‍🩹</p></div></article>
+      </div>
+      <button class="primary" data-next="letter">There's something I wrote you <span>💌</span></button>
+    </section>
+
+    <section class="screen" id="letter">
+      <div class="section-kicker">A NOTE FROM MY HEART</div>
+      <h2>Something just <em>for you.</em></h2>
+      <p class="section-intro">Tap the envelope. I put a little piece of my heart inside.</p>
+      <button class="envelope-wrap" id="envelope" aria-label="Open the love letter">
+        <div class="envelope">
+          <div class="letter-paper"><span class="letter-mini">My love,</span><span class="letter-preview">There's so much I want you to know…</span></div>
+          <div class="envelope-back"></div><div class="envelope-flap"></div><div class="envelope-front"></div><div class="envelope-seal">♥</div>
+        </div>
+      </button>
+      <p class="tap-hint" id="envelopeHint">Tap to open your letter ♡</p>
+      <article class="love-letter hidden" id="loveLetter">
+        <p class="letter-greeting">Meri Roshmalai 🥹❤️🫶🏻</p>
+        <p>Pata nahi tum mein aisa kya hai, par tumse baat karke dil ko ek alag hi sukoon milta hai. Tumhari smile, tumhari baatein, tumhara gussa, tumhari cute si harkatein… mujhe tumhari har ek cheez se pyaar hai. 🥺💗</p>
+        <p>Main tumhare saath sirf aaj nahi, apna har aane wala kal jeena chahta hoon. Tumhare bure waqt mein tumhara sahara, tumhari khushi ki wajah aur tumhari life ka woh insaan banna chahta hoon jo tumhe hamesha special feel karaye. 🫂❤️.</p>
+        <p>Toh meri Roshmalai, kya tum meri zindagi ka sabse khoobsurat hissa bankar, har janam mein meri hi rehna pasand karogi? 🥹💍❤️</p>
+        <p class="letter-signoff">Poore dil se <br><span>tumhara Chamcham ❤️</span></p>
+      </article>
+      <button class="primary" data-next="reasons">One more little thing… <span>💗</span></button>
+    </section>
+
+    <section class="screen" id="reasons">
+      <div class="section-kicker">A THOUSAND LITTLE REASONS</div>
+      <h2>Why I love <em>you.</em></h2>
+      <p class="section-intro">Tap each glowing heart to uncover one reason. There will always be more.</p>
+      <div class="reasons-grid">
+        <button class="reason" data-reason="Tumhari smile mera pura din acha kr deti hn."><span>♡</span><small>REASON 01</small><b>Tap my heart</b></button>
+        <button class="reason" data-reason="Tum mujhe hur baari khush rakhne ka try krti hoo."><span>♡</span><small>REASON 02</small><b>Tap my heart</b></button>
+        <button class="reason" data-reason="Tumhare saath har moment ek unique moment ban jata hai."><span>♡</span><small>REASON 03</small><b>Tap my heart</b></button>
+        <button class="reason" data-reason="Tumhara presence mera har din acha kr deta hai."><span>♡</span><small>REASON 04</small><b>Tap my heart</b></button>
+        <button class="reason" data-reason="Tumhara love mera har din acha kr deta hai."><span>♡</span><small>REASON 05</small><b>Tap my heart</b></button>
+        <button class="reason" data-reason="Tum saath hote hoo to alag hi feel hota hn babuu"><span>♡</span><small>REASON 06</small><b>Tap my heart</b></button>
+      </div>
+      <div class="reason-reveal" id="reasonReveal" aria-live="polite">Your next little love note is waiting…</div>
+      <button class="primary" data-next="gallery">Let's revisit our memories <span>📸</span></button>
+    </section>
+
+    <section class="screen" id="gallery">
+      <div class="section-kicker">LITTLE MOMENTS, BIG FEELINGS</div>
+      <h2>Our <em>little memories.</em></h2>
+      <p class="section-intro">Replace these dreamy placeholders with the moments you never want to forget.</p>
+      <div class="gallery">
+        <figure class="photo-card photo-one"><div class="photo-placeholder"><span>✦</span><b>Your favorite photo</b><small>Replace with photo 1</small></div><figcaption>The start of something beautiful</figcaption></figure>
+        <figure class="photo-card photo-two"><div class="photo-placeholder"><span>☾</span><b>A day together</b><small>Replace with photo 2</small></div><figcaption>My favorite place is beside you</figcaption></figure>
+        <figure class="photo-card photo-three"><div class="photo-placeholder"><span>♡</span><b>Our silly moment</b><small>Replace with photo 3</small></div><figcaption>Proof that love is also laughter</figcaption></figure>
+      </div>
+      <div class="gallery-controls"><button class="round-btn" id="prevPhoto" aria-label="Previous memory">←</button><span id="galleryCount">01 / 03</span><button class="round-btn" id="nextPhoto" aria-label="Next memory">→</button></div>
+      <button class="primary" data-next="surprise">Ready for the surprise? <span>🌙</span></button>
+    </section>
+
+    <section class="screen" id="surprise">
+      <div class="section-kicker">JUST YOU, ME & THE STARS</div>
+      <div class="constellation" aria-hidden="true">✧　·　✦　　·　♡<br>　·　✦　　·　✧</div>
+      <p class="script">If I could make one wish…</p>
+      <h2 class="surprise-line">In a world full of people,<br>my heart keeps <em>choosing you.</em></h2>
+      <div class="glowing-heart" aria-hidden="true">♥</div>
+      <p class="section-intro">There's one question I've been saving for this moment.</p>
+      <button class="primary" data-next="proposal">One last question… <span>💗</span></button>
+    </section>
+
+    <section class="screen" id="proposal">
+      <div class="section-kicker">FROM THE DEEPEST PART OF MY HEART</div>
+      <div class="ring" aria-hidden="true">💍</div>
+      <p class="proposal-preface">You make my world more beautiful just by being in it. I don't want to imagine my future without you. So today, I want to ask you something from my heart…</p>
+      <h2 class="forever-question">Will you be mine<br><em>forever?</em> <span>💍❤️</span></h2>
+      <p class="no-pressure">Whatever you feel, you can tell me honestly. Your heart deserves to be heard.</p>
+      <div class="proposal-buttons">
+        <button class="primary yes-btn" id="yesBtn">YES! A thousand times YES! <span>💖</span></button>
+        <button class="secondary" id="talkBtn">I have something to say <span>💌</span></button>
+      </div>
+    </section>
+
+    <section class="screen" id="celebration">
+      <div class="celebration-emoji" aria-hidden="true">💖✨🌹✨💖</div>
+      <div class="section-kicker">THE HAPPIEST LITTLE UNIVERSE</div>
+      <h2>Meh express nhi kr sakta apne dil ki feeling<br><em>yes sunne ke baad</em></h2>
+      <p class="celebration-message">Meri Roshmalai, tumhe pata nhi hn ki meh kitna lucky person kyoki tum jo mere saath hoo ❤️</p>
+      <div class="firework" aria-hidden="true">✦　✧　💗　✧　✦</div>
+      <button class="primary" data-next="final">Keep our little universe <span>♾️</span></button>
+    </section>
+
+    <section class="screen" id="feelings">
+      <div class="section-kicker">A SAFE LITTLE SPACE FOR YOUR HEART</div>
+      <div class="soft-heart" aria-hidden="true">💌</div>
+      <h2>I'm listening, <em>always.</em></h2>
+      <p class="section-intro">Meri Roshmalai, you don’t have to have the perfect words or an answer right away. I made this because you mean so much to me, and I want to hear what you truly feel. No pressure, no expectations—just us being honest with each other. ❤️</p>
+      <p class="script">Take all the time you need.</p>
+      <button class="primary" data-next="final">Back to our little universe <span>🌙</span></button>
+    </section>
+
+    <section class="screen" id="final">
+      <div class="final-orbit" aria-hidden="true"><span>♡</span></div>
+      <div class="section-kicker">TO BE CONTINUED, MERI ROSHMALAI…</div>
+      <h2 class="final-title">You + Me =<br><em>My favorite forever</em> <span>♾️❤️</span></h2>
+      <p class="section-intro">No matter where life takes us, I hope we keep finding little ways to make each other smile.</p>
+      <p class="script">Forever yours, Meh tumhara Chamcham. ❤️</p>
+      <button class="primary" id="replayBtn">Replay our little universe <span>↻</span></button>
+      <p class="footer-note">Made with all my heart, just for you ✦</p>
+    </section>
+  </main>
+  <div id="confetti" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
